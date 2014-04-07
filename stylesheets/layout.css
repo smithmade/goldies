@@ -1,0 +1,1307 @@
+/*
+* GOLDIE'S v2.0
+* Copyright 2013
+* www.smithmade.org
+*
+* Built with Skeleton
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
+/* Site Styles
+================================================== */
+
+html, body {
+  height: 100%;
+  font-family: 'GothamRoundedBook';
+  color: #fffdf6;
+}
+
+html {
+	background: #000000;
+}
+
+*::selection {
+	background: #f2ce77; /* Safari */
+	}
+
+*::-moz-selection {
+	background: #f2ce77; /* Firefox */
+}
+
+a, a:active, a:hover, a:visited {
+	text-decoration: none;
+	color: #fffdf6;
+}
+
+a:hover {
+	border-bottom: 1px solid #fffdf6;
+}
+
+.active {
+	border-bottom: 1px solid #fffdf6;
+}
+
+footer a:hover {
+	border:none;
+}
+
+.coin {
+	position: fixed;
+	left: 0;
+	bottom: 6.3rem;
+	padding-left: 3rem;
+	width: 3%;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	opacity: .60;
+}
+
+.coin img {
+	width: 100%;
+}
+
+.coin a, .coin a:hover, .coin a:visited, .coin a:active {
+	text-decoration: none;
+	border: none;
+}
+
+.wrapper {
+  padding-top: 4rem;
+  padding-left: 3rem;
+}
+
+.logo {
+	position: fixed;
+	right: 0;
+	bottom: 6.3rem;
+	padding-right: 3rem;
+	clear: right;
+}
+
+.logo img {
+	width: 100%;
+	max-width: 100px;
+}
+
+.nav, .nav > * {
+	position: fixed;
+	right: 5.5rem;
+	top: 3.7rem;
+	z-index: 999;
+}
+
+.nav a {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 20px;
+}
+
+section, article {
+	float: left;
+}
+
+article {
+	clear: left;
+}
+
+h1 {
+	font-size: 18px;
+	line-height: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 1.6rem;
+}
+
+h2 {
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 1rem 0;
+	line-height: 16px;
+}
+
+h3, h4 {
+	font-weight: bold;
+}
+
+.break-1 {
+	display: none;
+}
+
+.break-2 {
+	display: none;
+}
+
+.break-3 {
+	display: block;
+}
+
+.break-4 {
+	display: block;
+}
+
+i {
+	font-style: italic;
+}
+
+.line-height {
+	line-height: 18px;
+}
+
+.contact section span {
+	line-height: 18px;
+}
+
+.dessert h1 span {
+	font-size: 11px;
+	margin-left: 0.5rem;
+}
+
+/* Page Styles
+================================================== */
+
+
+
+.home {
+	background: url('../images/bg-neon-desktop.jpg') fixed center center no-repeat;
+}
+
+.menu.dinner {
+	background: url('../images/bg-dinner.jpg') fixed center center no-repeat;
+	height: 200%;
+	background-position-y: bottom; 
+}
+
+.menu.dessert {
+	background: url('../images/bg-dessert2.jpg') fixed center center no-repeat;
+}
+
+.menu.drinks {
+	background: url('../images/bg-drinks.jpg') fixed center center no-repeat;
+	height: 200%;
+}
+
+.menu.good-hour {
+	background: url('../images/bg-good-hour.jpg') fixed center center no-repeat;
+	height: 140%;
+}
+
+.menu.lunch {
+	background: url('../images/bg-brunch.jpg') fixed center center no-repeat;
+	height: 160%;
+}
+
+.menu.thanksgiving {
+	background: url('../images/bg-prix-fixe.jpg') fixed top center no-repeat;
+	height: 180%;
+}
+
+.about {
+	background: url('../images/bg-about.jpg') fixed center center no-repeat;
+}
+
+.chefs {
+	background: url('../images/bg-chefs.jpg') fixed top center no-repeat;
+}
+
+.questions {
+	background: url('../images/bg-questions.jpg') fixed center center no-repeat;
+	height: 120%;
+}
+
+.contact {
+	background: url('../images/bg-contact.jpg') fixed center center no-repeat;
+}
+
+.gallery {
+	background: url('../images/bg-gallery.jpg') fixed center center no-repeat;
+}
+
+.prix-fixe {
+	background: url('../images/bg-prix-fixe.jpg') fixed center center no-repeat;
+	height: 150%;
+}
+
+.home, .menu.lunch, .menu.dinner, .menu.dessert, .menu.drinks, .menu.good-hour, .about, .chefs, .questions, .contact, .gallery, .prix-fixe, .thanksgiving {
+	background-size: cover;
+}
+
+.chefs {
+  height: 150%;
+}
+
+.dessert {
+	height: 150%;
+}
+
+i {
+	font-style: italic;
+}
+
+section {
+	padding-bottom: 4em;
+}
+
+section span {
+	float: left;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 12px;
+	padding-right: 2rem;
+	text-transform: uppercase;
+}
+
+.contact section span {
+	padding-right: 4.4rem;
+}
+
+.contact section span:nth-of-type(2){
+	padding-right: 5.6rem;
+}
+
+article {
+	width: 16.9rem;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 16px;
+	padding-bottom: 3rem;
+}
+
+.hidden-mobile {
+	display: block;
+}
+
+.hidden-desktop {
+	display: none;
+}
+
+
+/* Home 
+======================= */
+
+.home article {
+	width: 60%;
+}
+
+.home .logo {
+	display: none;
+}
+
+em {
+	font-style: normal;
+	text-transform: uppercase;
+    font-family: 'GothamRoundedBold';
+}
+
+em + em {
+	font-size: 0.6rem;
+	font-family: 'GothamRoundedBook';
+}
+
+em + em + em {
+	font-size: 0.7rem;
+}
+
+.prix-fixe em + em {
+	font-style: normal;
+	text-transform: uppercase;
+    font-family: 'GothamRoundedBold';
+    font-size: 100%;
+}
+
+.menu article {
+	width: 50rem;
+	width: 65%;
+	width: 58%;
+}
+
+p + h1 {
+	margin-top: 2.6rem;
+}
+
+.questions article {
+	float: left;
+}
+
+.questions article + article {
+	clear: right;
+	padding-left: 4rem;
+}
+
+.questions p {
+	margin-bottom: 1rem;
+}
+
+.good-hours, .prix-fixe-header {
+	clear: left;
+	float: left;
+	margin-bottom: 3rem;
+}
+
+.good-hours div {
+	float: left;
+	margin-right: 4rem;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 8px;
+	text-transform: uppercase;
+}
+
+.gallery nav {
+	padding-top: 5%;
+	padding-top: 4rem;
+	top: 0;
+}
+
+.pagination {
+	color: white;
+	position: relative;
+	left: 5.4rem;
+	top: 4rem;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/* prix fixe 
+============================ */
+
+.prix-fixe-header {
+	clear: left;
+	float: left;
+	margin-bottom: 2rem;
+}
+
+.prix-fixe-header p {
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 8px;
+	text-transform: uppercase;
+	font-family: 'GothamRoundedBold';
+}
+
+p.big-price {
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: normal;
+}
+
+p.date {
+	font-size: 14px;
+	font-family: 'GothamRoundedBook';
+	margin-top: 2rem;
+}
+
+.numeral {
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	min-width: 3rem;
+	margin-top: 0.25rem;
+	margin-bottom: 3rem;
+}
+
+.prix-fixe article p + p + p {
+	margin-bottom: 3rem;
+}
+
+.prix-fixe article p + p {
+	margin-left: 3rem;
+}
+
+.less-width {
+	width: 93.8%;
+}
+
+/* lunch
+======================== */
+
+.menu-hours {
+	clear: left;
+	float: left;
+	margin-bottom: 3rem;
+}
+
+.menu-hours div {
+	float: left;
+	margin-right: 4rem;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 8px;
+	text-transform: uppercase;
+}
+
+.menu-hours div:nth-of-type(1) {
+	line-height: 16px;
+	margin-top: -0.4em;
+}
+
+
+/* Drinks 
+============================ */
+
+.drinks article div {
+	width: 48%;
+	float: left;
+	margin-top: 2rem;
+}
+
+.clear-left {
+	clear: left;
+}
+
+
+/* Thanksgiving 
+============================ */
+.thanksgiving-promo {
+	margin-top: -2.7em;
+}
+
+.thanksgiving-promo p {
+	font-family: 'GothamRoundedBold';
+	font-size: 10px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #FFFBB0;
+	margin-left: 29.7em;
+	margin-top: -4.2em;
+}
+
+.thanksgiving-promo a {
+	border: none;
+}
+
+.thanksgiving-promo a:hover {
+	border: none;
+}
+
+.thanksgiving-promo p a {
+	color: #FFFBB0;
+	border-bottom: 1px solid #FFFBB0;
+}
+
+.thanksgiving-promo p a:hover {
+	border-bottom: 1px solid #FFFBB0;
+}
+
+.thanksgiving h1 span {
+	font-size: 13px;
+}
+
+.thanksgiving-blurb {
+	/*width: 57%;*/
+	line-height: 16px !important;
+}
+
+.thanksgiving-blurb a {
+	font-family: 'GothamRoundedBold';
+	border-bottom: 1px solid #fffdf6;
+}
+
+/* X-mas Pies
+===================== */
+
+.xmas-img:hover {
+	border-bottom: none;
+}
+
+.xmas-text {
+	position: fixed;
+	top: 5.3rem;
+	float: right;
+	left: 20.3rem;
+}
+
+.xmas-text a {
+	text-transform: uppercase;
+	border-bottom: 1px solid #fffdf6;
+	font-size: 74%;
+	font-weight: bold;
+}
+
+
+
+
+/* Fade-in  */
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+ 
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+ 
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+
+/*  Gallery BGs */
+
+div.arrow {
+	padding-left: 0;
+	padding-top: .5rem;
+}
+
+div.arrow img {
+	width: .8rem;
+	height: 4.9rem;
+}
+
+div.arrow a:hover {
+	border: 0;
+}
+
+.arrow.upside-down {
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	transform:rotate(180deg);
+	float: left;
+}
+
+.last.paging {
+	float: left;
+}
+
+/* holiday hours
+=============== */
+
+
+body.holiday-hours {
+	background: url(../images/nye-2013.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+div.holiday-hours {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+/* Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {	}
+
+	/* "iPad" portrait 
+	===========================*/
+
+	@media only screen 
+	and (min-device-width: 768px) 
+	and (max-device-width: 1024px) 
+	and (orientation : portrait) {
+
+		.break-1 {
+			display: block;
+		}
+
+		.break-3 {
+			display: none;
+		}
+
+		.menu article {
+			width: 50%;
+		}
+
+		.contact section span {
+			display: block;
+			float: none;
+			clear: left;
+		}
+
+		.questions article + article {
+			clear: left;
+			padding-left: 0;
+			margin-top: -2.8rem;
+		}
+
+		.menu.dinner {
+			background: url('../images/bg-dinner-tablet.jpg') fixed center center no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		.home {
+			background: url(../images/bg-neon-tablet.jpg) center center no-repeat;
+			background-size: contain;
+		}
+
+		.chefs {
+			background: url('../images/bg-chefs-tablet-portrait.jpg') fixed no-repeat;
+			background-size: 100%;
+			background-position: bottom center;
+			height: 100%;
+		}
+
+		.menu.drinks {
+			height: 190%;
+		}
+
+		.coin {
+			width: 5%;
+		}
+
+		.prix-fixe p {
+			width: 110%;
+		}
+
+		.thanksgiving {
+			height: 140% !important;
+		}
+
+		.drinks article div {
+			width: 100%;
+			float: none;
+			margin-top: 2rem;
+		}
+
+		.clear-left {
+			clear: none;
+		}
+
+
+	}
+
+	/* "iPad" Landscape 
+	==============================*/
+
+	@media only screen 
+	and (min-device-width: 768px) 
+	and (max-device-width: 1024px) 
+	and (orientation : landscape) {
+
+		.menu.dinner {
+			background-position: 0 0;
+		}
+		
+		.chefs {
+			background: url('../images/bg-chefs.jpg') no-repeat;
+			background-size: cover;
+			background-position: top center;
+			height: 100%;
+		}
+		
+		.break-3 {
+			display: none;
+		}
+
+		.menu article {
+			width: 80%;
+		}
+
+		.break-4 {
+			display: block;
+		}
+
+		.active {
+			text-decoration: none;
+			border: none;
+		}
+
+		.menu.drinks {
+			background-size: cover;
+			height: 240%;
+		}
+
+	}
+
+
+	/* "Phones" 
+	==========================*/
+
+	@media only screen 
+	and (min-device-width : 320px) 
+	and (max-device-width : 480px) {
+		.wrapper {
+			padding-top: 2rem;
+		}
+
+		.break-3 {
+			display: none;
+		}
+
+		.logo {
+			top:0;
+			left:2rem;
+			right: auto;
+			padding: 0;
+			margin: 0;
+			position: relative;
+
+		}
+
+		.nav, .nav > * {
+			position: fixed;
+			left: 2.4rem;
+			z-index: 999;
+			bottom: 2rem;
+			top: initial;
+		}
+
+		.nav a {
+			font-size: 20px;
+			font-weight: normal;
+			line-height: 0;
+		}
+
+		ul {
+			margin: 0;
+		}
+
+		li {
+			margin-top: 1.6rem;
+		}
+		
+		.logo {
+			width: 40%;
+			top: -7em;
+		}
+
+		.logo img {
+			max-width: 100%;
+		}
+
+		.menu .nav, .about .nav, .chefs .nav, .questions .nav, .gallery .nav, .contact .nav {
+			display: none;
+		}
+
+		.break-2 {
+			display: block;
+		}
+
+		.menu .logo, .about .logo, .chefs .logo, .questions .logo, .contact .logo, .gallery .logo {
+			position: absolute;
+			top: 2rem;
+			height: 5rem;
+		}
+
+		.menu .wrapper, .about .wrapper, .chefs .wrapper, .questions .wrapper, .contact .wrapper, .gallery .wrapper {
+			padding-top: 8.4rem;
+			margin-left: 0;
+			padding-left: 2.4rem;
+		}
+
+		.home {
+			background: url(../images/bg-neon.jpg) no-repeat;
+			background-size: contain;
+			/*background-position-y: 3rem;*/
+			/* xmas edit */
+			background-position-y: 1rem;  
+		}
+
+		.home section {
+			width: 100%;
+			position: fixed;
+			top: 18%;
+			padding: 0;
+			left: 0em;
+			}		
+
+		.menu.thanksgiving {
+			height: 360%;
+			background-position: bottom;
+			background-size: 700%;
+		}
+
+		.menu.thanksgiving article {
+			padding-bottom: 0;
+		}
+
+		.thanksgiving-desserts span {
+			position: relative;
+			top: 1em;
+		}
+
+		.thanksgiving-desserts {
+			margin-bottom: 2.6em;
+		}
+
+		.individual-dinner {
+			margin-top: 3em;
+		}
+
+		.thanksgiving-promo {
+			position: relative;
+			top: 7.5em;
+			left: 1rem;
+		}
+
+		.thanksgiving-promo img {
+			max-width: 100%;
+		}
+
+		.thanksgiving-promo p {
+			margin-left: 2.2em;
+			margin-top: -0.5rem;
+		}
+
+		.thanksgiving-straight {
+			width: 90%;
+		}
+
+		.xmas-img {
+			position: relative;
+			top: 4rem;
+			left: 2rem;
+		}
+
+		.xmas-img img {
+			width: 80%;
+		}
+
+		.xmas-text {
+			position: relative;
+			top: -2.5rem;
+			left: -3.5rem;
+		}
+
+		.menu-hours {
+			margin-top: 5em;
+			margin-bottom: 0;
+		}
+
+		.less-width {
+			width: 90%;
+		}
+
+		.menu.dessert article, .menu.drinks article, .menu.good-hour .good-hours {
+			margin-top: 5rem;
+		}
+
+		.hidden-mobile {
+			display: none;
+		}
+
+		.hidden-desktop {
+			display: block;
+		}
+
+
+		/* Gallery Arrows */
+
+		.rsMinW .rsArrowLeft { 
+			top: 50%;
+			left: 1rem !important; 
+		}
+
+		.rsMinW .rsArrowRight { 
+			right: 4rem !important; 
+			top: 50%; 
+		}
+
+
+		/* menu */
+
+		section span {
+			padding-right: 2.7rem;
+			position: relative;
+			z-index: 9999;
+		}
+
+		.menu article {
+			width: 85%;
+			margin-top: 3rem;
+		}
+
+		.menu.lunch {
+			height: 340%;
+		}
+
+		.menu.lunch article {
+			padding-bottom: 0;
+		}
+
+		.menu.good-hour article {
+			margin-top: 0;
+		}
+
+		.menu.dinner {
+			background: url('../images/bg-dinner-mobile.jpg') center center no-repeat;
+			background-size: 100%;
+			background-attachment: scroll;  
+			width: 100%;
+			height: 300%;
+			background-position: 0 0;
+		}
+
+		.menu.dessert {
+			height: 260%;
+			background: url('../images/bg-dessert-mobile2.jpg') no-repeat;
+			background-size: 200%;
+			background-attachment: scroll;  
+			width: 100%;
+			background-position: 0 0;
+		}
+
+		.menu.drinks {
+			height: 440%;
+			background: url('../images/bg-drinks-mobile.jpg') no-repeat;
+			background-size: 200%;
+			background-attachment: scroll;  
+			width: 100%;
+			background-position: 0 0;
+		}
+
+		.menu.good-hour {
+			height: 300%;
+			background: url('../images/bg-good-hour-mobile.jpg') no-repeat;
+			background-size: 100%;
+			background-attachment: scroll;  
+			width: 100%;
+			background-position: 0 0;
+		}
+
+		.menu.prix-fixe {
+			height: 290%;
+			overflow-x: hidden;
+			width: 105%;
+		}
+
+		.prix-fixe-header {
+			margin-top: 5rem;
+			margin-bottom: 0;
+		}
+
+
+		.mobile-sub-menu {
+			position: absolute;
+			top: 2.2rem;
+			right: -1rem;
+		}
+
+		.mobile-sub-menu span {
+			clear: left;
+			margin-bottom: 0.5rem;
+		}
+		
+		.good-hours {
+			margin-top: 3rem;
+		}
+
+		.good-hours div {
+			margin-bottom: 1.5rem;
+		}
+
+		/* About */
+
+		.about .logo {
+			position: absolute;
+			top: 2rem;
+			height: 5rem;
+		}
+		
+		.about section span, .chefs section span, .questions section span {
+			padding-right: 2rem;
+		}
+
+		.about article, .chefs article, .questions article {
+			width: 15.9rem;
+		}
+
+		.mobile-sub-menu-about {
+			position: absolute;
+			top: 2rem;
+			right: 0;
+		}
+
+		.mobile-sub-menu-about span {
+			clear: left;
+			margin-bottom: 0.5rem;
+		}
+
+		.active {
+			text-decoration: none;
+			border: none;
+		}
+
+		.about {
+			height: 140%;
+			background: url('../images/bg-about-mobile.jpg') center center no-repeat;
+			background-size: 100%;
+			background-attachment: scroll;  
+			width: 100%;
+			background-position: 0 0;
+		}
+
+		.chefs {
+			background: url('../images/bg-chefs-mobile-landscape.jpg') center bottom no-repeat;
+			background-size: cover;
+			background-attachment: scroll;  
+			width: 100%;
+			height: 150%;
+		}
+
+		.questions {
+			height: 260%;
+			background: url('../images/bg-questions-mobile.jpg') no-repeat;
+			background-size: 100%;
+			background-attachment: scroll;  
+			width: 100%;
+			background-position: 0 0;
+		}
+
+		.questions article + article {
+			padding-left: 0;
+			margin-top: -4em;
+		}
+
+		.about article, .chefs article, .questions article {
+			margin-top: 2rem;
+		}
+
+		.chefs article + article {
+			margin-top: 1rem;
+		}
+
+		/* Gallery */
+
+		.window:nth-child(1) {
+		  background:url(../images/gallery/mobile/01.jpg);
+		  top: 0;
+		  padding-top: 6rem;
+		}
+
+		/* Contact */
+		.contact {
+			height: 190%;
+			background-repeat: no-repeat;
+		}
+
+		.coin {
+			position: relative;
+			width: 10%;
+			bottom: 2rem;
+			padding-left: 2.4rem;
+		}
+
+		body.holiday-hours {
+			background: url(../images/nye-2013.jpg) no-repeat center center;
+			background-size: cover;
+		}
+
+		/* Drinks */
+
+		.drinks article div {
+			width: 100%;
+			float: none;
+			margin-top: 2rem;
+		}
+
+		.clear-left {
+			clear: none;
+		}
+
+
+
+	}
+	
+	/* "Phone" // Landscape 
+	============================= */
+
+	@media only screen 
+	and (min-device-width : 320px) 
+	and (max-device-width : 480px) 
+	and (orientation : landscape) {
+		
+		.home {
+			height: 120%;
+		}
+
+		.nav, .nav > * {
+			bottom: 0;
+		}
+
+		.logo {
+			position: fixed;
+			bottom: 0;
+			left: auto;
+			right: 0;
+			top: auto;
+			width: 40%;
+		}
+
+		.logo img {
+		max-width: 80%;
+		}
+		
+		.menu {
+			height: 140%;
+		}
+
+		.about, .chefs {
+			height: 200%;
+		}
+
+		.questions {
+			height: 420%;
+		}
+
+		.menu .logo, .about .logo, .chefs .logo, .questions .logo, .contact .logo {
+			left: 2rem;
+		}
+
+		.menu .wrapper, .about .wrapper, .chefs .wrapper, .questions .wrapper, .contact .wrapper {
+			padding-top: 9.6rem;
+		}
+
+		section {
+			padding-top: 2rem;
+			padding-bottom: 2em;
+		}
+
+		.break-2 {
+			display: none;
+		}
+
+		.drinks .break-2, .contact .break-2 {
+			display: block;
+		}
+
+		.contact span {
+			clear: left;
+		}
+
+		.contact {
+			height: 340%;
+		}
+
+		.coin {
+			width: 7%;
+			bottom: 1rem;
+		}
+
+		.chefs {
+			height: 320%;
+			background: url('../images/bg-chefs-mobile-landscape.jpg') no-repeat;
+			background-size: cover;
+			background-position: 0 bottom;
+		}
+
+		.thanksgiving-promo {
+			position: fixed;
+			top: auto;
+			bottom: 1.5%;
+			left: auto;
+			right: -13rem;
+			float: right;
+		}
+
+		.thanksgiving-promo img {
+			max-width: 50%;
+		}
+
+		.thanksgiving-promo p {
+			margin-top: -0.1rem;
+		}
+
+		.xmas-img {
+			position: relative;
+			top: 4.5rem;
+			left: 7rem;
+		}
+
+		.xmas-img img {
+			width: 60%;
+		}
+
+		.xmas-text {
+			top: 5rem;
+			left: -11rem;
+		}
+
+
+		.home {
+			background: url(../images/bg-home-landscape.jpg) no-repeat;
+			background-size:60%;
+			background-position: center center;
+			/*xmas*/
+			background-position-y: 1rem;
+		}
+
+		.home ul {
+			position: relative;
+			left: 1.6rem;
+		}
+
+		.home li {
+			float: left;
+			margin-left: 2rem;
+		}
+
+		.home li:first-of-type {
+			margin-left: 0;
+		}
+
+
+		.nav, .nav > * {
+			position: fixed;
+			z-index: 999;
+			bottom: 0.7rem;
+			top: initial;
+		}
+
+		nav, .home ul {
+		}
+
+		body.holiday-hours {
+			background: url(../images/nye-2013.jpg) no-repeat center center;
+			background-size: cover;
+		}
+	}
+
+
+/* Font-Face
+================================================== */
+
+@font-face {
+    font-family: 'GothamRoundedBook';
+    src: url('../fonts/gothamrnd-book.eot');
+    src: url('../fonts/gothamrnd-book.eot?iefix') format('eot'),
+         url('../fonts/gothamrnd-book.woff') format('woff'),
+         url('../fonts/gothamrnd-book.ttf') format('truetype'),
+         url('../fonts/gothamrnd-book.svg#GothamRoundedBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamRoundedBold';
+    src: url('../fonts/gothamrnd-bold.eot');
+    src: url('../fonts/gothamrnd-bold.eot?iefix') format('eot'),
+         url('../fonts/gothamrnd-bold.woff') format('woff'),
+         url('../fonts/gothamrnd-bold.ttf') format('truetype'),
+         url('../fonts/gothamrnd-bold.svg#GothamRoundedBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

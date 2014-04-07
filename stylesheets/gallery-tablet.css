@@ -1,0 +1,367 @@
+/*
+* GOLDIE'S v2.0
+* Copyright 2013, nick vi//apiano
+* www.smithmade.org
+*
+* Built with Skeleton
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+
+/*  Gallery BGs
+================================================== */
+
+.window {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.window div {
+	position: relative;
+	top: 1.6rem;	
+	padding-left: 3rem;
+	font-size: 10px;
+	font-weight: bold;
+/*	float: left;	*/
+}
+
+div.arrow {
+	padding-left: 0;
+	padding-top: 0;
+	margin-top: -1rem;
+}
+
+div.arrow img {
+	width: .8rem;
+	height: 4.9rem;
+}
+
+div.arrow a:hover {
+	border: 0;
+}
+
+.arrow.upside-down {
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	transform:rotate(180deg);
+	float: left;
+}
+
+.last.paging {
+	float: left;
+}
+
+.last.paging div.arrow {
+	margin-right: -1rem;
+}
+
+.window:nth-child(1) {
+  background:url(../images/gallery/tablet/01.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(2) {
+  background:url(../images/gallery/tablet/02.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(3) {
+  background:url(../images/gallery/tablet/03.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(4) {
+  background:url(../images/gallery/tablet/04.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(5) {
+  background:url(../images/gallery/tablet/05.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(6) {
+  background:url(../images/gallery/tablet/06.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(7) {
+  background:url(../images/gallery/tablet/07.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(8) {
+  background:url(../images/gallery/tablet/08.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(9) {
+  background:url(../images/gallery/tablet/09.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(10) {
+  background:url(../images/gallery/tablet/10.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(11) {
+  background:url(../images/gallery/tablet/11.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(12) {
+  background:url(../images/gallery/tablet/12.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(13) {
+  background:url(../images/gallery/tablet/13.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(14) {
+  background:url(../images/gallery/tablet/14.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window:nth-child(15) {
+  background:url(../images/gallery/tablet/15.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  top: 0;
+}
+
+.window {
+	background-position: center center;
+}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+		.window:nth-child(1) {
+		  background:url(../images/gallery/mobile/01.jpg);
+		}
+
+		.window:nth-child(2) {
+		  background:url(../images/gallery/mobile/02.jpg);
+		}
+
+		.window:nth-child(3) {
+		  background:url(../images/gallery/mobile/03.jpg);
+		}
+
+		.window:nth-child(4) {
+		  background:url(../images/gallery/mobile/04.jpg);
+		}
+
+		.window:nth-child(5) {
+		  background:url(../images/gallery/mobile/05.jpg);
+		}
+
+		.window:nth-child(6) {
+		  background:url(../images/gallery/mobile/06.jpg);
+		}
+
+		.window:nth-child(7) {
+		  background:url(../images/gallery/mobile/07.jpg);
+		}
+
+		.window:nth-child(8) {
+		  background:url(../images/gallery/mobile/08.jpg);
+		}
+
+		.window:nth-child(9) {
+		  background:url(../images/gallery/mobile/09.jpg);
+		}
+
+		.window:nth-child(10) {
+		  background:url(../images/gallery/mobile/10.jpg);
+		}
+
+		.window:nth-child(11) {
+		  background:url(../images/gallery/mobile/11.jpg);
+		}
+
+		.window:nth-child(12) {
+		  background:url(../images/gallery/mobile/12.jpg);
+		}
+
+		.window:nth-child(13) {
+		  background:url(../images/gallery/mobile/13.jpg);
+		}
+
+		.window:nth-child(14) {
+		  background:url(../images/gallery/mobile/14.jpg);
+		}
+
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+	/* iPad Portrait */
+	@media only screen 
+	and (min-device-width: 768px) 
+	and (max-device-width: 1024px) 
+	and (orientation : portrait) {
+
+		.break-1 {
+			display: block;
+		}
+	}
+
+	/* iPad Landscape */
+	@media only screen 
+	and (min-device-width: 768px) 
+	and (max-device-width: 1024px) 
+	and (orientation : landscape) {
+
+		.window:nth-child(1) {
+  background:url(../images/gallery/01.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(2) {
+  background:url(../images/gallery/02.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(3) {
+  background:url(../images/gallery/03.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(4) {
+  background:url(../images/gallery/04.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(5) {
+  background:url(../images/gallery/05.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(6) {
+  background:url(../images/gallery/06.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(7) {
+  background:url(../images/gallery/07.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(8) {
+  background:url(../images/gallery/08.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(9) {
+  background:url(../images/gallery/09.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(10) {
+  background:url(../images/gallery/10.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(11) {
+  background:url(../images/gallery/11.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(12) {
+  background:url(../images/gallery/12.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(13) {
+  background:url(../images/gallery/13.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(14) {
+  background:url(../images/gallery/14.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.window:nth-child(15) {
+  background:url(../images/gallery/15.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+	}
