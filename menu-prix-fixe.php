@@ -113,7 +113,7 @@ MADE BY
 						$35
 					</p>
 					<p class="date">
-						April 2nd &amp; 3rd
+						April 9th &amp; 10th
 					</p>
 				</div>
 			</div>
@@ -129,49 +129,51 @@ MADE BY
 					<em>HAWAIIAN POKE:</em> tofu, tamari, pickled shallots, sesame oil, kale, wasabi&nbsp;aioli
 				</p>
 				<p>
-					braised <em>OKRA</em>, panko, tomatoes, red wine,&nbsp;garlic
+					fried <em>WONTONS</em>, caramelized onions, romesco&nbsp;sauce
 				</p>
 				<p>
-					fried <em>HEN-OF-THE-WOODS MUSHROOMS</em>, panko, apple mignonette, horseradish cashew&nbsp;cream
+					braised <em>OKRA</em>, panko, tomatoes, red wine,&nbsp;garlic
 				</p>
 
 				<div class="numeral">
 					2
 				</div>
 				<p>
+					<em>WINTER SQUASH</em>, shaved leeks, cauliflower bechamel, toasted&nbsp;almonds
+				</p>
+				<p>
 					roasted <em>BRUSSELS SPROUTS</em>, nutmeg, lemon zest, apple butter, pecan mousse, puffed black&nbsp;rice
 				</p>
 				<p>
-					<em>CAESAR’S SCHNOZZ:</em> escarole and frisée, shaved kohlrabi, parsley, crostini, cashew&nbsp;dressing
-				</p>
-				<p>
-					roasted <em>BEETS</em>, watercress, cashew crème fraîche, toasted pumpkin seeds, shallot&nbsp;vinaigrette
+					<em>GOLDIE’S GEM:</em> mixed greens, pickled carrots, cucumbers, sliced radish, tomatoes, lotus chip, 
+					roasted shallot-garlic&nbsp;vinaigrette
 				</p>
 
 				<div class="numeral">
 					3
 				</div>
 				<p>
-					<em>CHINESE REDHEAD:</em> brown fried rice, peas, carrots, onions, julienned red pepper&nbsp;and&nbsp;cucumber
+					<em>SHEPHERD’S PIE:</em> crimini mushrooms, collard greens, roasted carrots, peas, turnip and potato 
+					mash, sherry wine-porcini&nbsp;gravy
 				</p>
 				<p>
-					<em>PO’ BOY</em>, roasted fried hen-of-the-woods mushrooms, bibb lettuce, remoulade, potato&nbsp;roll
+					<em>CHICKPEA SOCCA</em>, salt-roasted beets, shiitake mushrooms, fennel seed, lemon-cashew cream,&nbsp;mâche
 				</p>
 				<p>
-					<em>CHICKPEA SOCCA</em>, salt-roasted beets, shiitake mushrooms, fennel seed, lemon-cashew cream,&nbsp;mâche
+					<em>GRILLED CHEESE</em>, cauliflower bechamel, roasted tomato, toasted pullman&nbsp;bread
 				</p>
 
 				<div class="numeral">
 					4
 				</div>
 				<p>
-					<em>TRUFFLES:</em> valrhona 70%&nbsp;cocoa
-				</p>
-				<p>
 					roasted <em>GALA APPLES</em>, hazelnut brittle, cinnamon rum&nbsp;cream
 				</p>
 				<p>
-					<em>OPEN SESAME:</em> tahini cake, walnuts, brandy, lemon chamomile cream, candied black sesame&nbsp;seeds
+					<em>TRUFFLES:</em> valrhona 70%&nbsp;cocoa
+				</p>
+				<p>
+					<em>OLIVE OIL CAKE</em>, lemon almond ricotta, berry&nbsp;coulis
 				</p>
 
 			</article>
